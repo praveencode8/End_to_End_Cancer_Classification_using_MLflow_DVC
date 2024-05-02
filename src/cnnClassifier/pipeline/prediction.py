@@ -28,5 +28,5 @@ class PredictionPipeline:
             prediction = 'Normal'
             return [{ "image" : prediction}]
         else:
-            prediction = 'Cancer'
+            prediction = 'Adenocarcinoma Cancer'
             return [{ "image" : prediction}]
